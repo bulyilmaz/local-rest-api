@@ -1,7 +1,6 @@
 class User {
-    constructor(username) {
+    constructor() {
         this.baseUrl = "http://localhost:3000";
-        this.username = username;
     }
 
     async getUsers() {
