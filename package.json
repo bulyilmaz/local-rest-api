@@ -2,6 +2,13 @@
   "name": "local-rest-api",
   "description": "User Module with Local REST API (fetch, async, await) & Webpack",
   "author": "Bülent YILMAZ",
+  "scripts": {
+    "js-dev-compile": "webpack --mode development",
+    "js-compile": "webpack --mode production",
+    "watch": "webpack --watch",
+    "dev-server": "webpack-dev-server --mode development --open --hot",
+    "rest-api": "json-server --watch data.json"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
