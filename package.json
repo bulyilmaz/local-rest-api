@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bulyilmaz/local-rest-api.git"
