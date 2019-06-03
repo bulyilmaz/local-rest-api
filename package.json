@@ -1,7 +1,4 @@
 {
-  "name": "local-rest-api",
-  "description": "User Module with Local REST API (fetch, async, await) & Webpack",
-  "author": "Bülent YILMAZ",
   "scripts": {
     "js-dev-compile": "webpack --mode development",
     "js-compile": "webpack --mode production",
