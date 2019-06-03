@@ -1,4 +1,5 @@
 {
+  "author": "Bülent YILMAZ",
   "scripts": {
     "js-dev-compile": "webpack --mode development",
     "js-compile": "webpack --mode production",
